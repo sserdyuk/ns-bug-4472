@@ -1,0 +1,12 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
+    <Page.actionBar>
+        <ActionBar title="My App" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+    <StackLayout dock="top" class="p-20">
+        <ScrollView>
+            <Label text="I am tricky disappearing label" textWrap="true" class="h1" textAlignment="center" />
+            <HtmlView html="{{ html }}" loaded="viewLoaded" />
+        </ScrollView>
+    </StackLayout>
+</Page>
